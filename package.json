@@ -1,0 +1,16 @@
+{
+  "name": "krushal-portfolio",
+  "version": "1.0.0",
+  "description": "Krushal Hirpara's Professional Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --entry-file=index.html",
+    "start": "npm run dev"
+  },
+  "keywords": ["portfolio", "web-development", "cybersecurity"],
+  "author": "Krushal Hirpara",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

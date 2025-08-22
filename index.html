@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krushal Hirpara - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">KH</div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            
+            <div class="nav-controls">
+                <button id="themeToggle" class="theme-toggle">
+                    <i class="fas fa-sun"></i>
+                </button>
+                <button id="mobileMenuBtn" class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+        
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="mobile-menu hidden">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <!-- Background Elements -->
+        <div class="hero-bg">
+            <div class="hero-bg-element hero-bg-1"></div>
+            <div class="hero-bg-element hero-bg-2"></div>
+            <div class="hero-bg-element hero-bg-3"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <!-- Avatar -->
+                <div class="avatar">KH</div>
+                
+                <!-- Main Content - Updated Name -->
+                <h1 class="hero-title">
+                    Hi, I'm <span class="gradient-text">Krushal Hirpara</span>
+                </h1>
+                
+                <div>
+                    <p class="hero-subtitle">B.Tech CSE Student • 5th Semester</p>
+                    <!-- Updated: Web Developer -->
+                    <p class="hero-description">Cybersecurity Enthusiast • Web Developer • CGPA: 8.02</p>
+                </div>
+                
+                <p class="hero-text">
+                    Passionate about cybersecurity and currently exploring development & DSA. 
+                    Building secure and innovative solutions for the digital world.
+                </p>
+                
+                <!-- CTA Buttons -->
+                <div class="btn-group">
+                    <a href="#contact" class="btn-primary">Get In Touch</a>
+                    <a href="#about" class="btn-secondary">Learn More</a>
+                </div>
+                
+                <!-- Social Links -->
+                <div class="social-links">
+                    <a href="mailto:krushalhirpara.connect@gmail.com" class="social-link">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://github.com/KRUSHAL2956" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">About Me</h2>
+                <p class="section-subtitle">Get to know me better</p>
+            </div>
+            
+            <div class="card" style="max-width: 64rem; margin: 0 auto;">
+                <div class="text-center">
+                    <h3 class="project-title">Aspiring Cybersecurity Professional</h3>
+                    <p class="project-description">
+                        I'm Krushal Hirpara, a dedicated Computer Science and Engineering student at Parul University, Vadodara. 
+                        Currently in my 5th semester with a CGPA of 8.02, I'm continuously developing my technical expertise and problem-solving abilities.
+                    </p>
+                    <p class="project-description">
+                        Beyond academics, I've demonstrated strong leadership as a head coordinator for multiple university events, 
+                        successfully managing diverse teams and ensuring flawless execution. Originally from Surat, I'm deeply passionate about 
+                        cybersecurity research and innovative web development.
+                    </p>
+                </div>
+                
+                <div class="grid grid-cols-2" style="margin-top: 1.5rem;">
+                    <div class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Education</h4>
+                            <p>B.Tech CSE - 5th Semester</p>
+                            <p style="color: var(--primary-600); font-size: 0.875rem;">CGPA: 8.02</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Location</h4>
+                            <p>Surat, Gujarat</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Focus</h4>
+                            <p>Cybersecurity</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fas fa-language"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Languages</h4>
+                            <p>Gujarati, Hindi, English</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">What I'm working with</p>
+            </div>
+            
+            <div class="grid grid-cols-4">
+                <!-- Programming Languages -->
+                <div class="card skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Programming</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Python</span>
+                    </div>
+                </div>
+                
+                <!-- Cybersecurity -->
+                <div class="card skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="skill-title">Cybersecurity</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Security Fundamentals</span>
+                        <span class="skill-tag">Ethical Hacking</span>
+                        <span class="skill-tag">Network Security</span>
+                    </div>
+                </div>
+                
+                <!-- Tools -->
+                <div class="card skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-terminal"></i>
+                    </div>
+                    <h3 class="skill-title">Tools & Scripting</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Shell Scripting</span>
+                        <span class="skill-tag">Kali Linux</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+                
+                <!-- Learning -->
+                <div class="card skill-card">
+                    <div class="skill-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3 class="skill-title">Currently Learning</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Data Structures</span>
+                        <span class="skill-tag">Algorithms</span>
+                        <span class="skill-tag">Web Development</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">Let's connect and collaborate</p>
+            </div>
+            
+            <div class="card contact-card">
+                <h3 class="contact-title">Let's Connect!</h3>
+                <p class="contact-description">
+                    I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and cybersecurity.
+                </p>
+                
+                <div class="contact-links">
+                    <a href="mailto:krushalhirpara.connect@gmail.com" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>Email</h4>
+                            <p>krushalhirpara.connect@gmail.com</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://github.com/KRUSHAL2956" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>GitHub</h4>
+                            <p>Krushal Hirpara</p>
+                        </div>
+                    </a>
+                    
+                    <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" class="contact-link">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <div class="contact-info">
+                            <h4>LinkedIn</h4>
+                            <p>Krushal Hirpara</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="footer-text">
+                &copy; 2025 Krushal Hirpara
+            </p>
+            <div class="footer-links">
+                <a href="mailto:krushalhirpara.connect@gmail.com" class="footer-link">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://github.com/KRUSHAL2956" target="_blank" class="footer-link">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" class="footer-link">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
