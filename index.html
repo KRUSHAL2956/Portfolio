@@ -1,92 +1,192 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Krushal Hirpara - Portfolio</title>
+    <title>Krushal Hirpara - Portfolio | Cybersecurity Enthusiast & Developer</title>
+
+    <!-- Enhanced SEO Meta Tags -->
+    <meta name="description"
+        content="Krushal Hirpara - B.Tech CSE student (CGPA: 8.02) specializing in cybersecurity, ethical hacking, and web development. 15+ events managed, 3 certifications earned.">
+    <meta name="keywords"
+        content="Krushal Hirpara, cybersecurity expert, ethical hacker, web developer, B.Tech CSE, network security, vulnerability assessment, Python developer, JavaScript, HTML, CSS, portfolio">
+    <meta name="author" content="Krushal Hirpara">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+
+    <!-- Security Headers -->
+    <meta http-equiv="X-Content-Type-Options" content="nosniff">
+    <meta http-equiv="X-Frame-Options" content="DENY">
+    <meta http-equiv="X-XSS-Protection" content="1; mode=block">
+    <meta name="referrer" content="strict-origin-when-cross-origin">
+
+    <!-- Enhanced Open Graph Tags -->
+    <meta property="og:title" content="Krushal Hirpara - Cybersecurity Expert & Web Developer">
+    <meta property="og:description"
+        content="B.Tech CSE Student (CGPA: 8.02) | Cybersecurity Enthusiast | 15+ Events Managed | 3 Professional Certifications">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://github.com/KRUSHAL2956/Portfolio">
+    <meta property="og:site_name" content="Krushal Hirpara Portfolio">
+    <meta property="og:locale" content="en_US">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Krushal Hirpara - Cybersecurity Expert & Web Developer">
+    <meta name="twitter:description"
+        content="B.Tech CSE Student specializing in cybersecurity and web development. 15+ events managed, 3 certifications earned.">
+
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Krushal Hirpara",
+      "jobTitle": "Computer Science Student & Cybersecurity Enthusiast",
+      "description": "B.Tech CSE student specializing in cybersecurity, ethical hacking, and web development",
+      "url": "https://github.com/KRUSHAL2956/Portfolio",
+      "sameAs": [
+        "https://github.com/KRUSHAL2956",
+        "https://www.linkedin.com/in/krushal-hirpara-29y05"
+      ],
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "Parul University",
+        "address": "Vadodara, Gujarat, India"
+      },
+      "knowsAbout": [
+        "Cybersecurity",
+        "Ethical Hacking",
+        "Web Development",
+        "Network Security",
+        "Python Programming",
+        "JavaScript",
+        "HTML",
+        "CSS"
+      ],
+      "email": "krushalhirpara.connect@gmail.com",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Surat",
+        "addressRegion": "Gujarat",
+        "addressCountry": "India"
+      }
+    }
+    </script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <!-- Performance Optimization -->
+    <link rel="preload" href="style.css" as="style">
+    <link rel="preload" href="script.js" as="script">
+    <link rel="dns-prefetch" href="//cdnjs.cloudflare.com">
+    <link rel="dns-prefetch" href="//fonts.googleapis.com">
+
     <link rel="stylesheet" href="style.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
 </head>
+
 <body>
     <!-- Navigation -->
-    <nav class="navbar">
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
         <div class="nav-container">
-            <div class="logo">KH</div>
-            
-            <div class="nav-links">
-                <a href="#home" class="nav-link">Home</a>
-                <a href="#about" class="nav-link">About</a>
-                <a href="#skills" class="nav-link">Skills</a>
+            <div class="logo" aria-label="Krushal Hirpara Logo">KH</div>
 
-                <a href="#contact" class="nav-link">Contact</a>
+            <div class="nav-links" role="menubar">
+                <a href="#home" class="nav-link" role="menuitem">Home</a>
+                <a href="#about" class="nav-link" role="menuitem">About</a>
+                <a href="#experience" class="nav-link" role="menuitem">Experience</a>
+                <a href="#skills" class="nav-link" role="menuitem">Skills</a>
+                <a href="#certifications" class="nav-link" role="menuitem">Certifications</a>
+                <a href="#projects" class="nav-link" role="menuitem">Projects</a>
+                <a href="#contact" class="nav-link" role="menuitem">Contact</a>
             </div>
-            
+
             <div class="nav-controls">
-                <button id="themeToggle" class="theme-toggle">
-                    <i class="fas fa-sun"></i>
+                <button id="themeToggle" class="theme-toggle" aria-label="Toggle dark/light theme" aria-pressed="true">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
                 </button>
-                <button id="mobileMenuBtn" class="mobile-menu-btn">
-                    <i class="fas fa-bars"></i>
+                <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle mobile menu" aria-expanded="false"
+                    aria-controls="mobileMenu">
+                    <i class="fas fa-bars" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
-        
-        <!-- Mobile menu -->
-        <div id="mobileMenu" class="mobile-menu hidden">
-            <a href="#home">Home</a>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
 
-            <a href="#contact">Contact</a>
+        <!-- Mobile menu -->
+        <div id="mobileMenu" class="mobile-menu hidden" role="menu" aria-labelledby="mobileMenuBtn">
+            <a href="#home" role="menuitem">Home</a>
+            <a href="#about" role="menuitem">About</a>
+            <a href="#experience" role="menuitem">Experience</a>
+            <a href="#skills" role="menuitem">Skills</a>
+            <a href="#certifications" role="menuitem">Certifications</a>
+            <a href="#projects" role="menuitem">Projects</a>
+            <a href="#contact" role="menuitem">Contact</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section id="home" class="hero">
+    <section id="home" class="hero" role="banner" aria-labelledby="hero-title">
         <!-- Background Elements -->
-        <div class="hero-bg">
+        <div class="hero-bg" aria-hidden="true">
             <div class="hero-bg-element hero-bg-1"></div>
             <div class="hero-bg-element hero-bg-2"></div>
             <div class="hero-bg-element hero-bg-3"></div>
         </div>
-        
+
         <div class="container">
             <div class="hero-content">
                 <!-- Avatar -->
-                <div class="avatar">KH</div>
-                
-                <!-- Main Content - Updated Name -->
-                <h1 class="hero-title">
+                <div class="avatar" aria-label="Krushal Hirpara Avatar">KH</div>
+
+                <!-- Main Content -->
+                <h1 id="hero-title" class="hero-title">
                     Hi, I'm <span class="gradient-text">Krushal Hirpara</span>
                 </h1>
-                
+
                 <div>
                     <p class="hero-subtitle">B.Tech CSE Student • 5th Semester</p>
-                    <!-- Updated: Web Developer -->
-                    <p class="hero-description">Cybersecurity Enthusiast • Web Developer • CGPA: 8.02</p>
+                    <p class="hero-description">Web Developer • Cybersecurity Enthusiast • CGPA: 8.02</p>
                 </div>
-                
+
                 <p class="hero-text">
-                    Passionate about cybersecurity and currently exploring development & DSA. 
-                    Building secure and innovative solutions for the digital world.
+                    A passionate B.Tech CSE student driven by curiosity and a love for building secure, scalable tech.
+                    Specializing in cybersecurity, DSA, and web development, I blend problem-solving with real-world
+                    impact.
+                    As a Google Student Ambassador and an active campus leader, I focus on inspiring innovation and
+                    fostering collaboration within student communities.
                 </p>
-                
+
                 <!-- CTA Buttons -->
-                <div class="btn-group">
-                    <a href="#contact" class="btn-primary">Get In Touch</a>
-                    <a href="#about" class="btn-secondary">Learn More</a>
+                <div class="btn-group" role="group" aria-label="Call to action buttons">
+                    <a href="#contact" class="btn-primary" aria-describedby="contact-desc">Get In Touch</a>
+                    <a href="#about" class="btn-secondary" aria-describedby="about-desc">Learn More</a>
+                    <a href="KrushalHirpara_Resume.pdf" download="KrushalHirpara_Resume.pdf" class="btn-resume"
+                        aria-label="Download Krushal Hirpara's Resume PDF">
+                        <i class="fas fa-download" aria-hidden="true"></i>
+                        Download Resume
+                    </a>
                 </div>
-                
+
                 <!-- Social Links -->
-                <div class="social-links">
-                    <a href="mailto:krushalhirpara.connect@gmail.com" class="social-link">
-                        <i class="fas fa-envelope"></i>
+                <div class="social-links" role="list" aria-label="Social media links">
+                    <a href="mailto:krushalhirpara.connect@gmail.com" class="social-link" role="listitem"
+                        aria-label="Send email to Krushal Hirpara">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
                     </a>
-                    <a href="https://github.com/KRUSHAL2956" target="_blank" class="social-link">
-                        <i class="fab fa-github"></i>
+                    <a href="https://github.com/KRUSHAL2956" target="_blank" rel="noopener noreferrer"
+                        class="social-link" role="listitem" aria-label="Visit Krushal Hirpara's GitHub profile">
+                        <i class="fab fa-github" aria-hidden="true"></i>
                     </a>
-                    <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" class="social-link">
-                        <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" rel="noopener noreferrer"
+                        class="social-link" role="listitem"
+                        aria-label="Visit Krushal Hirpara's LinkedIn profile">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
@@ -94,27 +194,43 @@
     </section>
 
     <!-- About Section -->
-    <section id="about" class="section">
+    <section id="about" class="section" aria-labelledby="about-title">
+        <!-- Animated Background -->
+        <div class="animated-bg" aria-hidden="true">
+            <div class="bg-element bg-1"></div>
+            <div class="bg-element bg-4"></div>
+            <div class="bg-element bg-5"></div>
+        </div>
+
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">About Me</h2>
+                <h2 id="about-title" class="section-title">About Me</h2>
                 <p class="section-subtitle">Get to know me better</p>
             </div>
-            
-            <div class="card" style="max-width: 64rem; margin: 0 auto;">
+
+            <div class="card center">
                 <div class="text-center">
                     <h3 class="project-title">Aspiring Cybersecurity Professional</h3>
                     <p class="project-description">
-                        I'm Krushal Hirpara, a dedicated Computer Science and Engineering student at Parul University, Vadodara. 
-                        Currently in my 5th semester with a CGPA of 8.02, I'm continuously developing my technical expertise and problem-solving abilities.
+                        I'm Krushal Hirpara, currently pursuing a B.Tech in Computer Science and Engineering at Parul
+                        University, Vadodara, with a CGPA of 8.02.
+                        I specialize in modern web development, Data Structures & Algorithms (DSA), and have a strong
+                        interest in the field of cybersecurity.
+                        My technical skills include proficiency in C, Java, JavaScript, Python, Bash, and Shell
+                        scripting. I am also highly skilled in working with Linux distributions,
+                        particularly Kali Linux, which strengthens my foundation in ethical hacking and secure system
+                        operations.
                     </p>
                     <p class="project-description">
-                        Beyond academics, I've demonstrated strong leadership as a head coordinator for multiple university events, 
-                        successfully managing diverse teams and ensuring flawless execution. Originally from Surat, I'm deeply passionate about 
-                        cybersecurity research and innovative web development.
+                        Beyond academics, I proudly serve as the Google Student Ambassador of my campus, where I
+                        actively contribute to building a tech-driven community.
+                        I have also participated twice in the Smart India Hackathon as a team leader, showcasing my
+                        leadership and problem-solving skills.
+                        My passion lies at the intersection of development and security, where I aim to build impactful,
+                        secure, and scalable solutions.
                     </p>
                 </div>
-                
+
                 <div class="grid grid-cols-2" style="margin-top: 1.5rem;">
                     <div class="contact-link">
                         <div class="contact-icon">
@@ -126,7 +242,7 @@
                             <p style="color: var(--primary-600); font-size: 0.875rem;">CGPA: 8.02</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-link">
                         <div class="contact-icon">
                             <i class="fas fa-map-marker-alt"></i>
@@ -136,17 +252,17 @@
                             <p>Surat, Gujarat</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-link">
                         <div class="contact-icon">
                             <i class="fas fa-shield-alt"></i>
                         </div>
                         <div class="contact-info">
-                            <h4>Focus</h4>
+                            <h4>Interest</h4>
                             <p>Cybersecurity</p>
                         </div>
                     </div>
-                    
+
                     <div class="contact-link">
                         <div class="contact-icon">
                             <i class="fas fa-language"></i>
@@ -161,141 +277,556 @@
         </div>
     </section>
 
-    <!-- Skills Section -->
-    <section id="skills" class="section section-alt">
+    <!-- Experience & Education Timeline -->
+    <section id="experience" class="section section-alt" aria-labelledby="experience-title">
+        <!-- Animated Background -->
+        <div class="animated-bg" aria-hidden="true">
+            <div class="bg-element bg-2"></div>
+            <div class="bg-element bg-4"></div>
+            <div class="bg-element bg-6"></div>
+        </div>
+
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Skills & Technologies</h2>
-                <p class="section-subtitle">What I'm working with</p>
+                <h2 id="experience-title" class="section-title">Experience & Education</h2>
+                <p class="section-subtitle">My journey and achievements</p>
             </div>
-            
-            <div class="grid grid-cols-4">
-                <!-- Programming Languages -->
-                <div class="card skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-code"></i>
-                    </div>
-                    <h3 class="skill-title">Programming</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">C</span>
-                        <span class="skill-tag">Java</span>
-                        <span class="skill-tag">Python</span>
+
+            <div class="timeline" role="list" aria-label="Experience and education timeline">
+
+                <!-- 10th Education -->
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon" aria-hidden="true">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>Secondary Education (10th)</h3>
+                        <h4>Sardar Patel Vidhya Bhavan, Surat</h4>
+                        <p>Graduated with <strong>94 percentile</strong></p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Academics</span>
+                            <span class="timeline-tag">Distinction</span>
+                            <span class="timeline-tag">Matriculation</span>
+                        </div>
                     </div>
                 </div>
-                
+
+                <!-- 12th Education -->
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-date">2022 - 2023</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon" aria-hidden="true">
+                            <i class="fas fa-school"></i>
+                        </div>
+                        <h3>Higher Secondary Education (12th)</h3>
+                        <h4>Ashadeep IIT, Surat</h4>
+                        <p>Completed Science Stream with <strong>80 percentile</strong></p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Science Stream</span>
+                            <span class="timeline-tag">Academics</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- B.Tech Education -->
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon" aria-hidden="true">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <h3>B.Tech Computer Science & Engineering</h3>
+                        <h4>Parul University, Vadodara</h4>
+                        <p>Currently in 5th semester • <strong>8.02 CGPA</strong></p>
+                        <p>Specialization: Cybersecurity & Web Development</p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Data Structures</span>
+                            <span class="timeline-tag">Algorithms</span>
+                            <span class="timeline-tag">Computer Networks</span>
+                            <span class="timeline-tag">Web Development</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Training: Smart Interview DSA -->
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-date">May - June 2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon" aria-hidden="true">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>DSA Training Program</h3>
+                        <h4>Smart Interviews</h4>
+                        <p>Completed intensive Data Structures and Algorithms training program.
+                            Gained comprehensive experience in problem-solving techniques and algorithmic thinking.</p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Data Structures</span>
+                            <span class="timeline-tag">Algorithms</span>
+                            <span class="timeline-tag">Problem Solving</span>
+                            <span class="timeline-tag">Coding</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship: IBM Web Development -->
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-date">August - October 2025</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon" aria-hidden="true">
+                            <i class="fas fa-building"></i>
+                        </div>
+                        <h3>Web Development Intern</h3>
+                        <h4>IBM — Virtual Internship</h4>
+                        <p>Completed comprehensive web development internship focusing on HTML, CSS, and JavaScript
+                            fundamentals.
+                            Gained hands-on experience in building responsive web applications and modern development
+                            practices.</p>
+                        <p>Location: Virtual/Remote</p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">HTML</span>
+                            <span class="timeline-tag">CSS</span>
+                            <span class="timeline-tag">JavaScript</span>
+                            <span class="timeline-tag">Responsive Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internship: Google Student Ambassador -->
+                <div class="timeline-item" role="listitem">
+                    <div class="timeline-date">September 2025 - Present</div>
+                    <div class="timeline-content">
+                        <div class="timeline-icon" aria-hidden="true">
+                            <i class="fab fa-google"></i>
+                        </div>
+                        <h3>Google Student Ambassador</h3>
+                        <h4>Google — Internship</h4>
+                        <p>Serving as a Google Student Ambassador for my campus.
+                            Leading and organizing tech-focused initiatives, events, and workshops to build a strong
+                            student developer community.</p>
+                        <p>Location: Vadodara, Gujarat, India (Remote)</p>
+                        <div class="timeline-tags">
+                            <span class="timeline-tag">Leadership</span>
+                            <span class="timeline-tag">Communication</span>
+                            <span class="timeline-tag">Community Building</span>
+                            <span class="timeline-tag">Event Management</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section section-alt" aria-labelledby="skills-title">
+        <!-- Animated Background -->
+        <div class="animated-bg" aria-hidden="true">
+            <div class="bg-element bg-2"></div>
+            <div class="bg-element bg-6"></div>
+            <div class="bg-element bg-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 id="skills-title" class="section-title">Skills & Technologies</h2>
+                <p class="section-subtitle">What I Work With</p>
+            </div>
+
+            <div class="grid grid-cols-3" role="list" aria-label="Skills and technologies">
+                <!-- Web Development -->
+                <div class="card skill-card" role="listitem">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3 class="skill-title">Web Development</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Responsive Design</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">DOM Manipulation</span>
+                    </div>
+                </div>
+
+                <!-- Programming Languages -->
+                <div class="card skill-card" role="listitem">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <h3 class="skill-title">Programming Languages</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">C</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">DSA</span>
+                        <span class="skill-tag">Algorithms</span>
+                    </div>
+                </div>
+
                 <!-- Cybersecurity -->
-                <div class="card skill-card">
-                    <div class="skill-icon">
+                <div class="card skill-card" role="listitem">
+                    <div class="skill-icon" aria-hidden="true">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3 class="skill-title">Cybersecurity</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Security Fundamentals</span>
-                        <span class="skill-tag">Ethical Hacking</span>
                         <span class="skill-tag">Network Security</span>
-                    </div>
-                </div>
-                
-                <!-- Tools -->
-                <div class="card skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-terminal"></i>
-                    </div>
-                    <h3 class="skill-title">Tools & Scripting</h3>
-                    <div class="skill-tags">
-                        <span class="skill-tag">Shell Scripting</span>
                         <span class="skill-tag">Kali Linux</span>
-                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">Security Analysis</span>
+                        <span class="skill-tag">Vulnerability Assessment</span>
                     </div>
                 </div>
-                
-                <!-- Learning -->
-                <div class="card skill-card">
-                    <div class="skill-icon">
-                        <i class="fas fa-brain"></i>
+
+                <!-- Development Tools -->
+                <div class="card skill-card" role="listitem">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fas fa-tools"></i>
                     </div>
-                    <h3 class="skill-title">Currently Learning</h3>
+                    <h3 class="skill-title">Development Tools</h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Data Structures</span>
-                        <span class="skill-tag">Algorithms</span>
-                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Command Line</span>
+                        <span class="skill-tag">Version Control</span>
+                        <span class="skill-tag">API Integration</span>
+                        <span class="skill-tag">Debugging</span>
+                    </div>
+                </div>
+
+                <!-- Systems & Networking -->
+                <div class="card skill-card" role="listitem">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <h3 class="skill-title">Systems & Networking</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Computer Networks</span>
+                        <span class="skill-tag">Internet Protocols</span>
+                        <span class="skill-tag">Linux</span>
+                        <span class="skill-tag">Operating Systems</span>
+                        <span class="skill-tag">Shell Scripting</span>
+                        <span class="skill-tag">SQL & DBMS</span>
+                    </div>
+                </div>
+
+                <!-- Leadership & Communication -->
+                <div class="card skill-card" role="listitem">
+                    <div class="skill-icon" aria-hidden="true">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="skill-title">Leadership & Communication</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Team Leadership</span>
+                        <span class="skill-tag">Event Management</span>
+                        <span class="skill-tag">Community Building</span>
+                        <span class="skill-tag">Project Management</span>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
+    <!-- Certifications Section -->
+    <section id="certifications" class="section" aria-labelledby="certifications-title">
+        <!-- Animated Background -->
+        <div class="animated-bg" aria-hidden="true">
+            <div class="bg-element bg-3"></div>
+            <div class="bg-element bg-4"></div>
+            <div class="bg-element bg-1"></div>
+        </div>
 
-
-    <!-- Contact Section -->
-    <section id="contact" class="section">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Get In Touch</h2>
+                <h2 id="certifications-title" class="section-title">Certifications & Achievements</h2>
+                <p class="section-subtitle">Professional credentials and accomplishments</p>
+            </div>
+
+            <div class="grid grid-cols-3">
+                <!-- Certification 1: Smart Coder -->
+                <div class="card cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Smart Coder</h3>
+                        <p class="cert-issuer">Smart Interviews</p>
+                        <p class="cert-date">July 2025</p>
+                        <div class="cert-skills">
+                            <span class="cert-skill">DSA</span>
+                            <span class="cert-skill">SDE</span>
+                        </div>
+                        <a href="https://smartinterviews.in/certificate/edf51272" target="_blank" rel="noopener noreferrer" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Certification 2: Web Development Fundamentals -->
+                <div class="card cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Web Development Fundamentals</h3>
+                        <p class="cert-issuer">IBM</p>
+                        <p class="cert-date">October 2025</p>
+                        <div class="cert-skills">
+                            <span class="cert-skill">HTML</span>
+                            <span class="cert-skill">CSS</span>
+                            <span class="cert-skill">JavaScript</span>
+                        </div>
+                        <a href="https://www.credly.com/badges/4c929793-b866-41b8-bf1c-a4e80df5e613/linked_in_profile"
+                            target="_blank" rel="noopener noreferrer" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Certification 3: Computer Networks -->
+                <div class="card cert-card">
+                    <div class="cert-icon">
+                        <i class="fas fa-network-wired"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Computer Networks and Internet Protocols</h3>
+                        <p class="cert-issuer">NPTEL</p>
+                        <p class="cert-date">May 2025</p>
+                        <div class="cert-skills">
+                            <span class="cert-skill">Computer Networking</span>
+                        </div>
+                        <a href="https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs15/Course/NPTEL25CS15S115760023504263652.pdf"
+                            target="_blank" rel="noopener noreferrer" class="cert-link">
+                            <i class="fas fa-external-link-alt"></i>
+                            View Certificate
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" aria-labelledby="projects-title">
+        <!-- Animated Background -->
+        <div class="animated-bg" aria-hidden="true">
+            <div class="bg-element bg-2"></div>
+            <div class="bg-element bg-5"></div>
+            <div class="bg-element bg-6"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 id="projects-title" class="section-title">Featured Projects</h2>
+                <p class="section-subtitle">Showcasing my technical expertise</p>
+
+                <!-- Search and Filter Controls -->
+                <div class="project-controls" role="search" aria-label="Project search and filter controls">
+                    <div class="search-container">
+                        <input type="text" id="searchInput" placeholder="Search projects, skills, technologies..."
+                            aria-label="Search projects by name, technology, or keyword">
+                        <button class="search-btn" id="searchBtn" aria-label="Search projects">
+                            <i class="fas fa-search" aria-hidden="true"></i>
+                        </button>
+                    </div>
+
+                    <div class="filter-buttons" role="group" aria-label="Filter projects by category">
+                        <button class="filter-btn active" data-filter="all" aria-pressed="true">All</button>
+                        <button class="filter-btn" data-filter="web" aria-pressed="false">Web Dev</button>
+                        <button class="filter-btn" data-filter="internship" aria-pressed="false">Internship</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1" id="projectsGrid">
+                <!-- Weather Dashboard Project -->
+                <div class="card project-card" data-category="web internship"
+                    data-keywords="weather dashboard web development html css javascript api integration responsive design ibm internship">
+                    <div class="project-content">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud-sun"></i>
+                        </div>
+                        <div class="project-info">
+                            <h3 class="project-title">Dynamic Weather Dashboard</h3>
+                            <p class="project-description">
+                                A responsive weather application built with vanilla JavaScript, featuring real-time
+                                weather data and interactive maps.
+                                Includes current weather conditions with 5-day forecast, interactive weather map using
+                                Leaflet.js,
+                                city search with auto-complete suggestions, and dark/light theme toggle.
+                                Deployed on Vercel with OpenWeatherMap API integration for accurate weather information.
+                            </p>
+                            <div class="tech-tags">
+                                <span class="tech-tag">JavaScript</span>
+                                <span class="tech-tag">HTML</span>
+                                <span class="tech-tag">CSS</span>
+                                <span class="tech-tag">Leaflet.js</span>
+                                <span class="tech-tag">OpenWeatherMap API</span>
+                                <span class="tech-tag">Vercel</span>
+                            </div>
+                            <div class="project-buttons">
+                                <a href="https://krushal-weather-dashboard.vercel.app/" target="_blank" rel="noopener noreferrer" class="btn-primary">Live Demo</a>
+                                <a href="https://github.com/KRUSHAL2956/dynamic-weather-dashboard" target="_blank" rel="noopener noreferrer" class="btn-secondary">View Code</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" aria-labelledby="contact-title">
+        <!-- Animated Background -->
+        <div class="animated-bg" aria-hidden="true">
+            <div class="bg-element bg-4"></div>
+            <div class="bg-element bg-1"></div>
+            <div class="bg-element bg-6"></div>
+        </div>
+
+        <div class="container">
+            <div class="section-header">
+                <h2 id="contact-title" class="section-title">Get In Touch</h2>
                 <p class="section-subtitle">Let's connect and collaborate</p>
             </div>
-            
+
             <div class="card contact-card">
-                <h3 class="contact-title">Let's Connect!</h3>
-                <p class="contact-description">
-                    I'm always open to discussing new opportunities, collaborations, or just having a chat about technology and cybersecurity.
-                </p>
-                
-                <div class="contact-links">
-                    <a href="mailto:krushalhirpara.connect@gmail.com" class="contact-link">
-                        <div class="contact-icon">
-                            <i class="fas fa-envelope"></i>
+                <div class="contact-container">
+                    <!-- Left Side: Contact Form -->
+                    <div class="contact-form-section">
+                        <h3 class="contact-title">Let's Connect!</h3>
+                        <p class="contact-description">
+                            Open to cybersecurity internships, web development projects, and technical collaborations.
+                            Available for freelance security assessments, code reviews, and full-stack development work.
+                        </p>
+
+                        <!-- Contact Form -->
+                        <form class="contact-form" id="contactForm" role="form" aria-labelledby="contact-form-title">
+                            <h4 id="contact-form-title" class="sr-only">Contact Form</h4>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" required aria-describedby="name-help">
+                                    <div id="name-help" class="sr-only">Enter your full name</div>
+                                </div>
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" required aria-describedby="email-help">
+                                    <div id="email-help" class="sr-only">Enter your email address</div>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required aria-describedby="subject-help">
+                                <div id="subject-help" class="sr-only">Enter the subject of your message</div>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="5" required
+                                    placeholder="Tell me about your project or inquiry..."
+                                    aria-describedby="message-help"></textarea>
+                                <div id="message-help" class="sr-only">Enter your message or inquiry</div>
+                            </div>
+                            <button type="submit" class="btn-primary form-submit" aria-describedby="submit-help">
+                                <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                                Send Message
+                            </button>
+                            <div id="submit-help" class="sr-only">Submit the contact form</div>
+                        </form>
+                    </div>
+
+                    <!-- Right Side: Direct Contact -->
+                    <div class="contact-direct-section">
+                        <h3 class="contact-title">Or Reach Me Directly</h3>
+                        <p class="contact-description">
+                            Prefer direct communication? Connect with me through these channels for quick responses.
+                        </p>
+
+                        <div class="contact-links" role="list" aria-label="Direct contact methods">
+                            <a href="mailto:krushalhirpara.connect@gmail.com" class="contact-link" role="listitem"
+                                aria-label="Send email">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>Email</h4>
+                                    <p>krushalhirpara.connect@gmail.com</p>
+                                </div>
+                            </a>
+
+                            <a href="https://github.com/KRUSHAL2956" target="_blank" rel="noopener noreferrer"
+                                class="contact-link" role="listitem" aria-label="Visit GitHub profile">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <i class="fab fa-github"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>GitHub</h4>
+                                    <p>github.com/KRUSHAL2956</p>
+                                </div>
+                            </a>
+
+                            <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" rel="noopener noreferrer" class="contact-link" role="listitem"
+                                aria-label="Visit LinkedIn profile">
+                                <div class="contact-icon" aria-hidden="true">
+                                    <i class="fab fa-linkedin"></i>
+                                </div>
+                                <div class="contact-info">
+                                    <h4>LinkedIn</h4>
+                                    <p>Krushal Hirpara</p>
+                                </div>
+                            </a>
                         </div>
-                        <div class="contact-info">
-                            <h4>Email</h4>
-                            <p>krushalhirpara.connect@gmail.com</p>
-                        </div>
-                    </a>
-                    
-                    <a href="https://github.com/KRUSHAL2956" target="_blank" class="contact-link">
-                        <div class="contact-icon">
-                            <i class="fab fa-github"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h4>GitHub</h4>
-                            <p>Krushal Hirpara</p>
-                        </div>
-                    </a>
-                    
-                    <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" class="contact-link">
-                        <div class="contact-icon">
-                            <i class="fab fa-linkedin"></i>
-                        </div>
-                        <div class="contact-info">
-                            <h4>LinkedIn</h4>
-                            <p>Krushal Hirpara</p>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
     <!-- Footer -->
-    <footer class="footer">
+    <footer class="footer" role="contentinfo" aria-label="Site footer">
         <div class="footer-content">
             <p class="footer-text">
                 &copy; 2025 Krushal Hirpara
             </p>
-            <div class="footer-links">
-                <a href="mailto:krushalhirpara.connect@gmail.com" class="footer-link">
-                    <i class="fas fa-envelope"></i>
+            <div class="footer-links" role="list" aria-label="Footer social links">
+                <a href="mailto:krushalhirpara.connect@gmail.com" class="footer-link" role="listitem"
+                    aria-label="Send email">
+                    <i class="fas fa-envelope" aria-hidden="true"></i>
                 </a>
-                <a href="https://github.com/KRUSHAL2956" target="_blank" class="footer-link">
-                    <i class="fab fa-github"></i>
+
+                <a href="https://github.com/KRUSHAL2956" target="_blank" rel="noopener noreferrer" class="footer-link"
+                    role="listitem" aria-label="Visit GitHub">
+                    <i class="fab fa-github" aria-hidden="true"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" class="footer-link">
-                    <i class="fab fa-linkedin"></i>
+                <a href="https://www.linkedin.com/in/krushal-hirpara-29y05" target="_blank" rel="noopener noreferrer"
+                    class="footer-link" role="listitem" aria-label="Visit LinkedIn">
+                    <i class="fab fa-linkedin" aria-hidden="true"></i>
                 </a>
             </div>
         </div>
     </footer>
 
+    <!-- Screen reader only styles -->
+    <style>
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            white-space: nowrap;
+            border: 0;
+        }
+    </style>
+
     <script src="script.js"></script>
 </body>
+
 </html>
