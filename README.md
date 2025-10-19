@@ -4,7 +4,6 @@ A modern, responsive portfolio website built to showcase projects, skills, and e
 
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://krushal-portfolio.vercel.app/)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-blue)](https://github.com/KRUSHAL2956/Portfolio)
-[![Status](https://img.shields.io/badge/Status-Active-success)](https://github.com/KRUSHAL2956/Portfolio)
 
 ---
 
