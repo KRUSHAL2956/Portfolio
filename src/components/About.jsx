@@ -45,7 +45,7 @@ export default function About() {
               {/* Profile image container */}
               <div className="relative rounded-2xl overflow-hidden border-2 border-[#00f0ff] shadow-[0_0_50px_rgba(0,240,255,0.3)]">
                 <img
-                  src="/profile.jpg?v=2"
+                  src="/profile.jpg?v=3"
                   alt="Krushal Hirpara"
                   className="w-full h-auto object-cover"
                 />
