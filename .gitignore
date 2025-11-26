@@ -129,3 +129,8 @@ dist
 
 # macOS
 .DS_Store
+
+# Private media
+public/resume.pdf
+public/profile.jpg
+public/project-images/

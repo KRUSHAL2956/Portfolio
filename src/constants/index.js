@@ -1,11 +1,11 @@
-import { 
-  Code, 
-  Globe, 
-  Shield, 
-  Server, 
-  Users, 
-  Wrench, 
-  Network 
+import {
+  Code,
+  Globe,
+  Shield,
+  Server,
+  Users,
+  Wrench,
+  Network
 } from "lucide-react";
 
 export const NAVIGATION_LINKS = [
@@ -98,11 +98,11 @@ export const EXPERIENCES = [
     title: "Cyber Security Intern",
     company: "Elevate Labs",
     location: "Virtual",
-    period: "Oct 2025 - Present",
+    period: "Oct 2025 - Dec 2025",
     description: "Performed network and web application vulnerability assessments, supported threat analysis, and prepared security reports to enhance system security.",
     achievements: [
       "Conducting vulnerability assessments",
-      " implementing security controls",
+      "Implementing security controls",
       "Monitoring security threats",
     ],
     technologies: ["Security Analysis", "Vulnerability Assessment", "Incident Response"],
