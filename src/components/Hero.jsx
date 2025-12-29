@@ -51,7 +51,7 @@ export default function Hero() {
             className="mb-4"
           >
             <p className="text-xl sm:text-2xl text-gray-300 font-light">
-              B.Tech CSE Student • 5th Semester
+              B.Tech CSE Student • 6th Semester
             </p>
             <p className="text-lg sm:text-xl text-[#00f0ff] font-medium mt-2">
               Web Developer • Cybersecurity Enthusiast • CGPA: 8.02
