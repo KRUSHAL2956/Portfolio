@@ -54,7 +54,7 @@ export default function Hero() {
               B.Tech CSE Student • 6th Semester
             </p>
             <p className="text-lg sm:text-xl text-[#00f0ff] font-medium mt-2">
-              Web Developer • Cybersecurity Enthusiast • CGPA: 8.02
+              Software Engineer | Web Developer | Exploring Cybersecurity            
             </p>
           </motion.div>
 
@@ -65,10 +65,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.3 }}
             className="text-gray-400 text-lg max-w-3xl mx-auto mb-12 leading-relaxed"
           >
-            A passionate B.Tech CSE student driven by curiosity and a love for building secure, scalable tech.
-            Specializing in modern web development, DSA, and cybersecurity, I blend problem-solving with real-world impact.
-            As a Google Student Ambassador and an active campus leader, I focus on inspiring innovation and
-            fostering collaboration within student communities.
+            I enjoy building modern, scalable web applications and strengthening my problem-solving skills through data structures and algorithms. Alongside full-stack development, I actively explore secure coding practices and system fundamentals.
           </motion.p>
 
           {/* CTA Buttons */}

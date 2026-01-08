@@ -25,7 +25,7 @@ export default function Certifications() {
           </h2>
           <div className="w-20 h-1 bg-gradient-to-r from-[#00f0ff] to-[#00ff88] mx-auto mb-4" />
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Professional certifications that validate my technical skills and commitment to continuous learning
+            A curated set of certifications reflecting my continuous learning, strong technical foundation, and hands-on exposure across software development, networking, and cybersecurity.
           </p>
         </motion.div>
 
@@ -62,12 +62,9 @@ export default function Certifications() {
                   {cert.description}
                 </p>
 
-                <div className="space-y-1 mb-4">
+                <div className="mb-4">
                   <p className="text-sm text-gray-400">
                     Issued: <span className="text-gray-300">{cert.date}</span>
-                  </p>
-                  <p className="text-xs text-gray-500 font-mono">
-                    ID: {cert.credentialId}
                   </p>
                 </div>
 
@@ -98,8 +95,8 @@ export default function Certifications() {
         >
           <div className="p-6 rounded-xl bg-gradient-to-br from-[#00f0ff]/10 to-[#00ff88]/10 border border-[#00f0ff]/30 text-center max-w-sm w-full">
             <div className="text-4xl mb-2">🎓</div>
-            <div className="text-2xl font-bold text-[#00f0ff] mb-1">CGPA 8.02</div>
-            <div className="text-sm text-gray-400">Academic Excellence</div>
+            <div className="text-2xl font-bold text-[#00f0ff] mb-1">CGPA: 8.02</div>
+            <div className="text-sm text-gray-400">Maintaining strong academic performance alongside practical projects, internships, and continuous skill development.</div>
           </div>
         </motion.div>
 

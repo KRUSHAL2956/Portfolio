@@ -5,7 +5,8 @@ import {
   Server,
   Users,
   Wrench,
-  Network
+  Network,
+  Award
 } from "lucide-react";
 
 export const NAVIGATION_LINKS = [
@@ -20,31 +21,31 @@ export const NAVIGATION_LINKS = [
 
 export const PROJECTS = [
   {
-    title: "Finance Tracker Web App",
-    description: "Full-stack personal finance app with real-time tracking, budget planning, and AI-driven insights using Gemini API.",
-    image: "/project-images/finance-tracker.png",
-    technologies: ["HTML", "CSS", "JavaScript", "Node.js", "MongoDB", "Groq API"],
+    title: "Finance Tracker Web Application",
+    description: "A personal finance management application designed to help users track income, expenses, and savings goals with secure authentication and AI-assisted insights. Built with full-stack architecture focusing on clean code, data handling, and real-world usability.",
+    image: "/project-images/finance-tracker.webp",
+    technologies: ["React", "Node.js", "Express.js", "MongoDB", "REST APIs", "Groq API"],
     category: "web",
     liveUrl: "https://krushal-finance-tracker.vercel.app/",
     githubUrl: "https://github.com/KRUSHAL2956",
   },
   {
-    title: "Real-Time Weather Dashboard",
-    description: "A responsive weather application built with vanilla JavaScript, featuring real-time weather data and interactive maps. Includes 5-day forecast and city search.",
-    image: "/project-images/weather-dashboard.png",
-    technologies: ["JavaScript", "HTML", "CSS", "Leaflet.js", "OpenWeatherMap API"],
-    category: "web",
-    liveUrl: "https://krushal-weather-dashboard.vercel.app/",
-    githubUrl: "https://github.com/KRUSHAL2956/dynamic-weather-dashboard",
-  },
-  {
     title: "Web Application Vulnerability Scanner",
-    description: "A comprehensive security tool to detect common web vulnerabilities like XSS and SQL Injection. Features automated scanning and detailed reporting.",
-    image: "/project-images/vulnerability-scanner.png",
-    technologies: ["Python", "Flask", "BeautifulSoup", "Security"],
+    description: "A security-focused application developed to identify common web vulnerabilities such as XSS and SQL Injection. Implements automated scanning, response analysis, and structured vulnerability reports.",
+    image: "/project-images/vulnerability-scanner.webp",
+    technologies: ["Python", "Flask", "MongoDB", "Security Testing"],
     category: "security",
     liveUrl: "https://websec-scanner-qdmo.onrender.com/",
     githubUrl: "https://github.com/KRUSHAL2956/WebSecScanner/",
+  },
+  {
+    title: "Real-Time Weather Dashboard",
+    description: "A responsive weather dashboard that provides real-time weather data, forecasts, and location-based insights using public APIs. Features clean UI, city search, and forecast functionality.",
+    image: "/project-images/weather-dashboard.webp",
+    technologies: ["HTML", "CSS", "JavaScript", "OpenWeatherMap API"],
+    category: "web",
+    liveUrl: "https://krushal-weather-dashboard.vercel.app/",
+    githubUrl: "https://github.com/KRUSHAL2956/dynamic-weather-dashboard",
   },
 ];
 
@@ -59,13 +60,13 @@ export const SKILL_CATEGORIES = [
     title: "Web Development",
     icon: Globe,
     color: "#00f0ff",
-    skills: ["HTML/CSS", "JavaScript", "Responsive Design", "UI/UX Design", "DOM Manipulation", "React", "Tailwind CSS"],
+    skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Responsive Design", "DOM Manipulation"],
   },
   {
-    title: "Programming Languages",
+    title: "Programming & DSA",
     icon: Code,
     color: "#00ff88",
-    skills: ["Python", "Java", "C", "JavaScript", "DSA", "Algorithms"],
+    skills: ["C", "Java", "Python", "JavaScript", "Data Structures & Algorithms", "Algorithms"],
   },
   {
     title: "Cybersecurity",
@@ -77,16 +78,16 @@ export const SKILL_CATEGORIES = [
     title: "Systems & Networking",
     icon: Server,
     color: "#aaff00",
-    skills: ["Computer Networks", "Internet Protocols", "Linux", "Operating Systems", "Shell Scripting", "SQL & DBMS"],
+    skills: ["Linux", "Operating Systems", "Computer Networks", "Internet Protocols", "Shell Scripting"],
   },
   {
-    title: "Development Tools",
+    title: "Databases, APIs & Dev Tools",
     icon: Wrench,
     color: "#ffaa00",
-    skills: ["Git & GitHub", "VS Code", "Command Line", "Version Control", "API Integration", "Debugging"],
+    skills: ["SQL & DBMS", "MongoDB", "MySQL", "REST APIs", "Git", "GitHub", "Command Line", "Version Control"],
   },
   {
-    title: "Leadership",
+    title: "Leadership & Collaboration",
     icon: Users,
     color: "#00aaff",
     skills: ["Team Leadership", "Event Management", "Community Building", "Project Management", "Public Speaking"],
@@ -95,103 +96,85 @@ export const SKILL_CATEGORIES = [
 
 export const EXPERIENCES = [
   {
-    title: "Cyber Security Intern",
+    title: "Cyber Security Intern (Virtual)",
     company: "Elevate Labs",
     location: "Virtual",
-    period: "Oct 2025 - Dec 2025",
-    description: "Performed network and web application vulnerability assessments, supported threat analysis, and prepared security reports to enhance system security.",
+    period: "Oct 2025 – Dec 2025",
+    description: "Gained hands-on exposure to cybersecurity fundamentals, vulnerability assessment, and Linux-based security tools. Worked on understanding common web security risks and was recognized with a Top Performer certificate.",
     achievements: [
-      "Conducting vulnerability assessments",
-      "Implementing security controls",
-      "Monitoring security threats",
+      "Top Performer Certificate",
+      "Vulnerability Assessment",
+      "Linux Security Tools",
     ],
-    technologies: ["Security Analysis", "Vulnerability Assessment", "Incident Response"],
+    technologies: ["Cybersecurity", "Vulnerability Assessment", "Linux", "Security Analysis"],
+  },
+  {
+    title: "Frontend Development Intern (Virtual)",
+    company: "Edunet Foundation in collaboration with IBM",
+    location: "Virtual",
+    period: "Aug 2025 – Oct 2025",
+    description: "Worked on building responsive web pages using HTML, CSS, and JavaScript, focusing on UI structure, usability, and collaborative development practices.",
+    achievements: [
+      "Built responsive web pages",
+      "UI structure & usability focus",
+      "Collaborative development",
+    ],
+    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
   },
   {
     title: "Google Student Ambassador",
     company: "Google",
     location: "Vadodara, Gujarat",
-    period: "Sep 2025 - Present",
-    description: "Led university tech events and community initiatives, promoting Google programs. Demonstrated strong communication, leadership, and student engagement skills.",
+    period: "Sep 2025 – Jan 2026",
+    description: "Actively involved in student engagement initiatives and technical events, supporting community building, workshops, and collaboration among students.",
     achievements: [
-      "Managed 15+ technical events",
-      "Built student developer community",
-      "Organized workshops",
+      "Student engagement initiatives",
+      "Technical events & workshops",
+      "Community building",
     ],
     technologies: ["Leadership", "Community Building", "Event Management"],
-  },
-  {
-    title: "Front-End Development Intern",
-    company: "IBM",
-    location: "Virtual",
-    period: "Aug 2025 - Oct 2025",
-    description: "Developed responsive web pages using HTML, CSS, and JavaScript, improving UI/UX and collaborating with team members for project delivery.",
-    achievements: [
-      "Built responsive web applications",
-      "Mastered modern development practices",
-      "Hands-on experience with frontend tech",
-    ],
-    technologies: ["HTML", "CSS", "JavaScript", "Responsive Design"],
-  },
-  {
-    title: "B.Tech Computer Science & Engineering",
-    company: "Parul University",
-    location: "Surat, Gujarat",
-    period: "Jun 2027",
-    description: "Currently in 5th semester with 8.02 CGPA. Specializing in Cybersecurity & Web Development.",
-    achievements: [
-      "CGPA: 8.02",
-      "Specialization in Cybersecurity",
-      "Active Campus Leader",
-    ],
-    technologies: ["Computer Science", "Networks", "Web Development"],
-  },
-  {
-    title: "Higher Secondary Education",
-    company: "Ashadeep IIT",
-    location: "Surat, Gujarat",
-    period: "May 2023",
-    description: "Completed Higher Secondary Education.",
-    achievements: [],
-    technologies: [],
-  },
-  {
-    title: "Secondary Education",
-    company: "Sardar Patel Vidhya Bhavan",
-    location: "Surat, Gujarat",
-    period: "Apr 2021",
-    description: "Completed Secondary Education.",
-    achievements: [],
-    technologies: [],
   },
 ];
 
 export const CERTIFICATIONS = [
   {
-    title: "Smart Coder",
+    title: "Smart Coder – Data Structures & Algorithms",
     issuer: "Smart Interviews",
     date: "Aug 2025",
-    credentialId: "SI-SC-2025",
     icon: Code,
     url: "https://smartinterviews.in/certificate/edf51272",
-    description: "Comprehensive training in Data Structures and Algorithms, focusing on problem-solving and optimization techniques."
+    description: "Completed structured training in data structures and algorithms with a strong focus on problem-solving, logical thinking, and optimization techniques."
+  },
+  {
+    title: "Top Performer – Cyber Security Internship",
+    issuer: "Elevate Labs",
+    date: "Dec 2025",
+    icon: Award,
+    url: "https://drive.google.com/file/d/1OgghQZ7O7JfgG_6LUGLcag8iIsMpc_UB/view?usp=drive_link",
+    description: "Recognized as a Top Performer for consistent performance and hands-on involvement in cybersecurity fundamentals, vulnerability assessment, and Linux-based tools."
+  },
+  {
+    title: "Computer Networks & Internet Protocols",
+    issuer: "NPTEL",
+    date: "May 2025",
+    icon: Network,
+    url: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs15/Course/NPTEL25CS15S115760023504263652.pdf",
+    description: "Developed a clear understanding of networking fundamentals, including network architectures, protocols, and data communication concepts."
   },
   {
     title: "Web Development Fundamentals",
     issuer: "IBM",
-    date: "October 2025",
-    credentialId: "IBM-WEB-2025",
+    date: "Oct 2025",
     icon: Globe,
     url: "https://www.credly.com/badges/4c929793-b866-41b8-bf1c-a4e80df5e613/linked_in_profile",
-    description: "Foundational knowledge of web development technologies including HTML, CSS, and JavaScript."
+    description: "Built a solid foundation in web development using HTML, CSS, and JavaScript, with emphasis on responsive design, clean structure, and best practices."
   },
   {
-    title: "Computer Networks and Internet Protocols",
-    issuer: "NPTEL",
-    date: "May 2025",
-    credentialId: "NPTEL-CN-2025",
-    icon: Network,
-    url: "https://archive.nptel.ac.in/content/noc/NOC25/SEM1/Ecertificates/106/noc25-cs15/Course/NPTEL25CS15S115760023504263652.pdf",
-    description: "In-depth understanding of computer networking concepts, protocols, and architecture."
+    title: "Frontend Developer Internship",
+    issuer: "Edunet Foundation in collaboration with IBM",
+    date: "Oct 2025",
+    icon: Globe,
+    url: "https://drive.google.com/file/d/1qeol8oZE1kYbzC-w_KaiTpQoT6G1x66e/view?usp=drive_link",
+    description: "Completed a frontend-focused internship centered on building responsive web pages using HTML, CSS, and JavaScript, with attention to UI structure, usability, and collaborative workflows."
   },
 ];

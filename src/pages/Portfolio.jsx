@@ -9,6 +9,7 @@ import Contact from "../components/Contact";
 import Navigation from "../components/Navigation";
 import AnimatedBackground from "../components/AnimatedBackground";
 import Footer from "../components/Footer";
+
 import ScrollToTop from "../components/ScrollToTop";
 import SEO from "../components/SEO";
 import { NAVIGATION_LINKS } from "../constants";
@@ -72,6 +73,7 @@ export default function Portfolio() {
           <Contact />
         </section>
       </div>
+
 
       <Footer />
     </div>

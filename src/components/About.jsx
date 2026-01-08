@@ -74,11 +74,15 @@ export default function About() {
               
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  I am a Computer Science undergraduate at Parul University with a strong foundation in modern web development and cybersecurity. Specializing in building secure, scalable applications, I combine technical expertise in JavaScript, Python, and Linux with a passion for problem-solving. My focus is on creating impactful digital solutions that bridge the gap between functionality and security.
+                  I am a Computer Science and Engineering student at Parul University, currently in my 6th semester with a CGPA of 8.02. My primary interest lies in web development, where I enjoy designing and building reliable, user-focused applications.
                 </p>
 
                 <p>
-                  As a Google Student Ambassador and two-time Smart India Hackathon team leader, I actively foster technical communities and drive innovation. I thrive in collaborative environments, leveraging my leadership skills to mentor peers and deliver complex projects.
+                  I have worked on multiple academic and personal projects using technologies such as React, Node.js, MongoDB, JavaScript, and Python, while strengthening my problem-solving skills through data structures and algorithms. I focus on writing clean, maintainable code and understanding how systems work end to end.
+                </p>
+
+                <p>
+                  Alongside development, I am exploring cybersecurity concepts to better understand secure application practices and Linux-based environments. I also enjoy working in collaborative and leadership-driven environments and actively contribute to student communities as a Google Student Ambassador.
                 </p>
               </div>
             </div>
