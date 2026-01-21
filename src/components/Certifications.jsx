@@ -95,7 +95,7 @@ export default function Certifications() {
         >
           <div className="p-6 rounded-xl bg-gradient-to-br from-[#00f0ff]/10 to-[#00ff88]/10 border border-[#00f0ff]/30 text-center max-w-sm w-full">
             <div className="text-4xl mb-2">🎓</div>
-            <div className="text-2xl font-bold text-[#00f0ff] mb-1">CGPA: 8.02</div>
+            <div className="text-2xl font-bold text-[#00f0ff] mb-1">CGPA: 8.18</div>
             <div className="text-sm text-gray-400">Maintaining strong academic performance alongside practical projects, internships, and continuous skill development.</div>
           </div>
         </motion.div>

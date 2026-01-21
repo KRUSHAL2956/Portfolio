@@ -27,7 +27,7 @@ export const PROJECTS = [
     technologies: ["React", "Node.js", "Express.js", "MongoDB", "REST APIs", "Groq API"],
     category: "web",
     liveUrl: "https://krushal-finance-tracker.vercel.app/",
-    githubUrl: "https://github.com/KRUSHAL2956",
+    githubUrl: "https://github.com/KRUSHAL2956/Finance-Tracker",
   },
   {
     title: "Web Application Vulnerability Scanner",

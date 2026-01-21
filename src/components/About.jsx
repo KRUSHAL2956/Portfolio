@@ -74,7 +74,7 @@ export default function About() {
               
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p>
-                  I am a Computer Science and Engineering student at Parul University, currently in my 6th semester with a CGPA of 8.02. My primary interest lies in web development, where I enjoy designing and building reliable, user-focused applications.
+                  I am a Computer Science and Engineering student at Parul University, currently in my 6th semester with a CGPA of 8.18. My primary interest lies in web development, where I enjoy designing and building reliable, user-focused applications.
                 </p>
 
                 <p>
