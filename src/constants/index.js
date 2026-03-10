@@ -96,6 +96,19 @@ export const SKILL_CATEGORIES = [
 
 export const EXPERIENCES = [
   {
+    title: "SDE Intern (Virtual)",
+    company: "BlueStock",
+    location: "Virtual",
+    period: "Mar 2026 – Present",
+    description: "Architecting and developing 'Logic Looper', a scalable, client-first daily puzzle platform with offline capabilities. Implementing deterministic puzzle generation, localized state management via IndexedDB, and serverless backend synchronization.",
+    achievements: [
+      "Designed Client-First Architecture",
+      "Implemented Robust Offline Functionality",
+      "Built Scalable Serverless Backend",
+    ],
+    technologies: ["React", "Tailwind CSS", "Node.js", "PostgreSQL", "IndexedDB"],
+  },
+  {
     title: "Cyber Security Intern (Virtual)",
     company: "Elevate Labs",
     location: "Virtual",
